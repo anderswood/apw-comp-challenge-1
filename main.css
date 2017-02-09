@@ -1,0 +1,31 @@
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+
+/*colors source: https://www.materialpalette.com/orange/green */
+.box1 {
+  background-color: #FF9800;
+}
+
+.box2, .box6 {
+ background-color: #F57C00;
+}
+
+.box3 {
+  background-color: #4CAF50;
+}
+
+.box4 {
+  background-color: #FFE0B2;
+}
+
+.box5, .box7 {
+  background-color: #BDBDBD;
+}
