@@ -1,31 +1,68 @@
+
+body {
+  position: absolute;
+  font-family: "Overpass",sans-serif;;
+}
+
 .boxes {
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;
+  flex-wrap: wrap;*/
+  /*poisition: relative;*/
+  width: 200px;
 }
 
 .box {
-  width: 300px;
-  height: 300px;
+  height: 16px;
+  opacity: .4;
+  text-indent: 20px;
+  padding: 10px 0px;
+  color: #FFFFFF;
 }
 
+.box0 {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  margin: 0px auto 0px -60px;
+  background-color: #000000;
+  text-align: center;
+  text-indent: 0px;
+  width: 120px;
+  height: 14px;
+  padding: 8px 0px;
+  border-radius: 8px 8px 0px 0px;
+}
 
-/*colors source: https://www.materialpalette.com/orange/green */
+.box0:hover {
+  opacity: .8;
+  margin-bottom: 200px;
+  transition-duration: .5s;
+}
+
+/*colors source: https://coolors.co/e65f2a-353432-274060-335c81-65afff */
 .box1 {
-  background-color: #FF9800;
+  background-color: #353432;
 }
 
 .box2, .box6 {
- background-color: #F57C00;
+  background-color: #274060;
 }
 
 .box3 {
-  background-color: #4CAF50;
+  background-color: #E65F2A;
 }
 
 .box4 {
-  background-color: #FFE0B2;
+  background-color: #335C81;
 }
 
 .box5, .box7 {
-  background-color: #BDBDBD;
+  background-color: #65AFFF;
+}
+
+#hero img {
+  width: 100%;
+  /*min-height: 500px;*/
+  /*background: url('morgan-freeman.jpg') no-repeat;*/
+  /*text-align: center;*/
 }
