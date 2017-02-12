@@ -1,68 +1,77 @@
 
 body {
-  position: absolute;
-  font-family: "Overpass",sans-serif;;
-}
-
-.boxes {
-  /*display: flex;
-  flex-wrap: wrap;*/
-  /*poisition: relative;*/
-  width: 200px;
-}
-
-.box {
-  height: 16px;
-  opacity: .4;
-  text-indent: 20px;
-  padding: 10px 0px;
+  font-family: "Overpass",sans-serif;
   color: #FFFFFF;
 }
 
-.box0 {
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
-  margin: 0px auto 0px -60px;
-  background-color: #000000;
-  text-align: center;
-  text-indent: 0px;
-  width: 120px;
-  height: 14px;
-  padding: 8px 0px;
-  border-radius: 8px 8px 0px 0px;
+header {
+  background-color: #E65F2A;
+  padding: 15px 20px;
 }
 
-.box0:hover {
-  opacity: .8;
-  margin-bottom: 200px;
-  transition-duration: .5s;
+h1 {
+  font-weight: 400;
+  font-size: 25px;
+  margin: 10px 0px;
+}
+
+h3 {
+  font-weight: 200;
+  font-size: 12px;
+  margin: 5px 0px;
+}
+
+
+.resume, .contact {
+  display: inline-block;
+  width: 90px;
+  border: 1px solid #FFFFFF;
+  margin: 10px 10px 0px 0px;
+  padding: 5px;
+}
+
+p {
+  display: inline-block;
+  font-size: 12px;
+  margin: 0px;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+}
+
+.boxes {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+.box {
+  height: 30px;
+  opacity: .6;
+}
+
+.box:hover {
+  opacity: .9;
+  border: 1px solid #FFFFFF;
+}
+
+div i {
+  margin-left: 40px;
+}
+
+h2 {
+  display: inline-block;
+  text-indent: 10px;
+  font-size: 15px;
+  margin: 0px;
+  padding: 8px 0px;
 }
 
 /*colors source: https://coolors.co/e65f2a-353432-274060-335c81-65afff */
-.box1 {
-  background-color: #353432;
-}
-
-.box2, .box6 {
-  background-color: #274060;
-}
-
-.box3 {
-  background-color: #E65F2A;
-}
-
-.box4 {
-  background-color: #335C81;
-}
-
-.box5, .box7 {
-  background-color: #65AFFF;
-}
-
-#hero img {
-  width: 100%;
-  /*min-height: 500px;*/
-  /*background: url('morgan-freeman.jpg') no-repeat;*/
-  /*text-align: center;*/
-}
+.box1 {background-color: #353432;}
+.box2, .box6 {background-color: #274060;}
+.box3 {background-color: #E65F2A;}
+.box4 {background-color: #335C81;}
+.box5, .box7 {background-color: #65AFFF;}
